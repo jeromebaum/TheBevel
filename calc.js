@@ -1,5 +1,3 @@
-/* Yes, this is ugly code. It gets the job done. */
-
 function CalcCtrl($scope) {
 	$scope.commonRatios = [
 		{
