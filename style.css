@@ -2,6 +2,7 @@ body {
 	background-image: url(old_mathematics.png);
 	background-repeat: repeat-both;
 	color: gray;
+	font-family: Helvetica;
 }
 input {
 	background-color: darkgray;
