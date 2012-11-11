@@ -10,7 +10,7 @@ a, a:active {
 	color: lightgray;
 }
 a:hover {
-	background-color: black;
+	background-color: gray;
 }
 .left, .right {
 	display: block;
