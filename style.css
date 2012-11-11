@@ -38,6 +38,13 @@ a:hover {
 	float: left;
 	margin-left: 20px;
 }
+.common ul {
+	margin-bottom: 0px;
+}
+.common .suggest {
+	font-size: 0.6em;
+	float: right;
+}
 .about {
 	clear: both;
 }
