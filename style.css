@@ -27,7 +27,7 @@ a:hover {
 }
 .is-to {
 	display: block;
-	margin-left: 20px;
+	text-align: center;
 }
 .common {
 	float: left;
@@ -35,6 +35,7 @@ a:hover {
 }
 .calculator ul {
 	list-style-type: none;
+	padding-left: 0px;
 }
 .credits {
 	clear: both;
