@@ -1,3 +1,7 @@
+body {
+	background-image: url(dark_geometric_2X.png);
+	background-repeat: repeat-both;
+}
 .left, .right {
 	display: block;
 	float: left;
