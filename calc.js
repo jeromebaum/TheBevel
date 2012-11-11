@@ -1,4 +1,4 @@
-/* Yes, this is ugly code. It gets the job done though. */
+/* Yes, this is ugly code. It gets the job done. */
 
 function CalcCtrl($scope) {
 	$scope.leftNumbers = [{v:4}, {v:3}, {v:''}];
