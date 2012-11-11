@@ -24,6 +24,11 @@ function CalcCtrl($scope) {
 			name: 'Inch',
 			left: [2.54, 1],
 			rightFirst: 1
+		},
+		{
+			name: 'Radius to circumference',
+			left: [1, 2*Math.PI],
+			rightFirst: 5
 		}
 	];
 	$scope.rightNumbers = [];
