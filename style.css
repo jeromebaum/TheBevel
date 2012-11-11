@@ -12,6 +12,9 @@ a, a:active {
 a:hover {
 	background-color: gray;
 }
+.title h1 {
+	display: inline-block;
+}
 .content {
 	width: 600px;
 	margin: 0px auto;
