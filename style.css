@@ -1,6 +1,10 @@
 body {
 	background-image: url(dark_geometric_2X.png);
 	background-repeat: repeat-both;
+	color: gray;
+}
+input {
+	background-color: darkgray;
 }
 .left, .right {
 	display: block;
