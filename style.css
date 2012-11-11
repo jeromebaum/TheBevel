@@ -6,6 +6,12 @@ body {
 input {
 	background-color: darkgray;
 }
+a, a:active {
+	color: lightgray;
+}
+a:hover {
+	background-color: black;
+}
 .left, .right {
 	display: block;
 	float: left;
