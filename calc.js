@@ -21,7 +21,7 @@ function CalcCtrl($scope) {
 			rightFirst: 210
 		},
 		{
-			name: '2, 4, 8, ..., 2⁸',
+			name: 'Powers of 2',
 			left: [1, 2, 4, 8, 16, 32, 64, 128, 256],
 			rightFirst: 3
 		},
