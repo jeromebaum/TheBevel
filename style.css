@@ -38,6 +38,9 @@ a:hover {
 	float: left;
 	margin-left: 20px;
 }
+.about {
+	clear: both;
+}
 .calculator ul {
 	list-style-type: none;
 	padding-left: 0px;
