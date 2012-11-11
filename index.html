@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+	<title>The Bevel — ratio solver, screen ratio, ...</title>
+	<meta name="description" content="Easy-to-use ratio solver. Show common ratios with a single click." />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> -->
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+	<script src="calc.js"></script>
+</head>
+<body ng-controller="CalcCtrl">
+	<h1>The Bevel</h1>
+	<div class="calculator">
+		<ul class="left">
+			<li ng-repeat="number in leftNumbers">
+				<input type="number" ng-model="number.v" ng-change="update('left', $index)">
+				<span class="is-to" ng-hide="$last">is to</span>
+			</li>
+		</ul>
+		<span class="as">as</span>
+		<ul class="right">
+			<li ng-repeat="number in rightNumbers">
+				<input type="number" ng-model="number.v" ng-change="update('right', $index)">
+				<span class="is-to" ng-hide="$last">is to</span>
+			</li>
+		</ul>
+	</div>
+	<div class="common">
+		<h2>Common</h2>
+		<ul>
+			<li ng-repeat="ratio in commonRatios">
+				<a href="#" ng-click="useRatio($index)">{{ ratio.name }}</a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
