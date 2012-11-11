@@ -7,13 +7,13 @@ function CalcCtrl($scope) {
 	$scope.commonRatios = [
 		{
 			name: '1024x768',
-			left: [{v:1024}, {v:768}],
-			right: [{v:800}, {v:600}]
+			left: [{v:1024}, {v:768}, {v:''}],
+			right: [{v:800}, {v:600}, {v:''}]
 		},
 		{
 			name: 'Golden ratio',
-			left: [{v:1}, {v:(1+Math.sqrt(5))/2}, {v:''}],
-			right: [{v:5}, {v:5*(1+Math.sqrt(5))/2}, {v:''}]
+			left: [{v:1000}, {v:1618}, {v:''}],
+			right: [{v:800}, {v:1618*800/1000}, {v:''}]
 		}
 	];
 
