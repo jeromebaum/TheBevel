@@ -21,6 +21,11 @@ function CalcCtrl($scope) {
 			name: 'KiB, MiB, GiB',
 			left: [1, 1024, 1024*1024, 1024*1024*1024],
 			rightFirst: 100
+		},
+		{
+			name: 'Inch',
+			left: [2.54, 1],
+			rightFirst: 1
 		}
 	];
 	$scope.rightNumbers = [];
