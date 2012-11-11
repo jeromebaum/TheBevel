@@ -6,6 +6,11 @@ function CalcCtrl($scope) {
 			rightFirst: 1024
 		},
 		{
+			name: '16:9',
+			left: [16, 9],
+			rightFirst: 1376
+		},
+		{
 			name: 'Golden ratio',
 			left: [1, 1.618],
 			rightFirst: 800
