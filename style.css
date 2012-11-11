@@ -23,6 +23,7 @@ a:hover {
 }
 .is-to {
 	display: block;
+	margin-left: 20px;
 }
 .common {
 	float: left;
