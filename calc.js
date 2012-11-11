@@ -16,6 +16,11 @@ function CalcCtrl($scope) {
 			rightFirst: 800
 		},
 		{
+			name: 'Root of 2 (DIN A/ISO 216)',
+			left: [1, 1.4142],
+			rightFirst: 210
+		},
+		{
 			name: '2, 4, 8, ..., 2⁸',
 			left: [1, 2, 4, 8, 16, 32, 64, 128, 256],
 			rightFirst: 3
