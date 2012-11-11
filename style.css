@@ -1,0 +1,19 @@
+.left, .right {
+	display: block;
+	float: left;
+}
+.as {
+	display: block;
+	float: left;
+	margin: 50px 20px 0px 20px;
+}
+.is-to {
+	display: block;
+}
+.common {
+	float: left;
+	margin-left: 20px;
+}
+.calculator ul {
+	list-style-type: none;
+}
