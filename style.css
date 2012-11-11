@@ -7,7 +7,7 @@ input {
 	background-color: darkgray;
 }
 a, a:active {
-	color: lightgray;
+	color: black;
 }
 a:hover {
 	background-color: gray;
