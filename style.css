@@ -12,6 +12,10 @@ a, a:active {
 a:hover {
 	background-color: gray;
 }
+.content {
+	width: 600px;
+	margin: 0px auto;
+}
 .left, .right {
 	display: block;
 	float: left;
