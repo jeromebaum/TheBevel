@@ -15,14 +15,14 @@
 	<div class="calculator">
 		<ul class="left">
 			<li ng-repeat="number in leftNumbers">
-				<input type="number" ng-model="number.v" ng-change="update('left', $index)">
+				<input type="number" ng-model="number.v" ng-change="update('left', $index)"/>
 				<span class="is-to" ng-hide="$last">is to</span>
 			</li>
 		</ul>
 		<span class="as">as</span>
 		<ul class="right">
 			<li ng-repeat="number in rightNumbers">
-				<input type="number" ng-model="number.v" ng-change="update('right', $index)">
+				<input type="number" ng-model="number.v" ng-change="update('right', $index)"/>
 				<span class="is-to" ng-hide="$last">is to</span>
 			</li>
 		</ul>
