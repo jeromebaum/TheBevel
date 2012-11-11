@@ -13,9 +13,14 @@ function CalcCtrl($scope) {
 			rightFirst: 800
 		},
 		{
-			name: '1, 2, 4, ..., 2⁸',
+			name: '2, 4, 8, ..., 2⁸',
 			left: [1, 2, 4, 8, 16, 32, 64, 128, 256],
 			rightFirst: 3
+		},
+		{
+			name: 'KiB, MiB, GiB',
+			left: [1, 1024, 1024*1024, 1024*1024*1024],
+			rightFirst: 100
 		}
 	];
 	$scope.rightNumbers = [];
