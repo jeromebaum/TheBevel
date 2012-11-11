@@ -15,6 +15,7 @@ a:hover {
 .content {
 	width: 600px;
 	margin: 0px auto;
+	padding: 40px;
 }
 .left, .right {
 	display: block;
